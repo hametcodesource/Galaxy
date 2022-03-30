@@ -19,6 +19,7 @@ from kivy.lang import Builder
 from kivy.uix.relativelayout import RelativeLayout
 from kivy.core.audio import SoundLoader
 
+# fullstack devellopeur  Hamet NIANG
 
 Builder.load_file("menu.kv")
 
