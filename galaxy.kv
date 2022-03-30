@@ -1,0 +1,20 @@
+#: import menu menu
+
+MainWidget:
+
+<MainWidget>:
+    canvas.before:
+        Rectangle:
+            size:self.size
+            source:'images/bg1.jpg'
+    menuwidget:menuwidget
+    perspectiver_pont_x:self.width/2
+    perspectiver_pont_y:self.height*0.75
+    MenuWidget:
+        id:menuwidget
+    Label:
+        text:root.score_txt
+        font_size:dp(20)
+        font_name:'fonts/Eurostile.ttf'
+        pos_hint:{"x":0,"top":1}
+        size_hint:.18,.18
